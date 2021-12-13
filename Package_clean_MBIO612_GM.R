@@ -1,0 +1,38 @@
+install.packages("devtools")
+install.packages("roxygen2")
+library("devtools")
+library("roxygen2")
+
+##The description file
+
+```
+Package: metabarcOIding
+Title: Statistical analysis, data visualization of metabarcoding data
+Version: 1.0.1
+Authors@R: c(
+  person("Gabrielle", "Martineau", email = "mg62@hawaii.edu", role = "cre"),
+  person("Katherine", "Grellman", email = "kgrell@hawaii.edu", role = "aut"),
+  person("Syrena", "Whitner", email = "swhitner@hawaii.edu", role = "aut"))
+Description: This package includes univariate and multivariate analysis of community composition to analyse metabarcoding community data.
+Overall, functions included in this package aim to examine the overall diversity of most abundant taxa in the community, to
+examine the Beta Diversity and the Variation in community structure based on different grouping factors and to investigate the OTUs/ASVs that can be used as indicators of different factors.
+
+Depends: R (>= 4.1.0)
+License: MIT License
+  LazyData: true
+Imports:
+  dplyr,
+  ggplot2,
+  data.table,
+  magrittr,
+  plyr,
+  reshape2,
+  tidyr,
+  RColorBrewer,
+  colorRamps,
+  vegan,
+  indicspecies,
+  stats
+  
+```
+
